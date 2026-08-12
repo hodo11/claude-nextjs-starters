@@ -1,0 +1,232 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e242] [cursor=pointer]:
+        - /url: /
+        - text: Starter
+      - navigation [ref=e5]:
+        - link [ref=e243] [cursor=pointer]:
+          - /url: "#buttons"
+          - text: 버튼
+        - link [ref=e244] [cursor=pointer]:
+          - /url: "#feedback"
+          - text: 피드백
+        - link [ref=e245] [cursor=pointer]:
+          - /url: "#cards"
+          - text: 카드
+        - link [ref=e246] [cursor=pointer]:
+          - /url: "#tabs"
+          - text: 탭
+        - link [ref=e247] [cursor=pointer]:
+          - /url: "#overlays"
+          - text: 오버레이
+        - link [ref=e248] [cursor=pointer]:
+          - /url: "#forms"
+          - text: 폼
+      - button [ref=e249]
+  - main [ref=e14]:
+    - generic [ref=e16]:
+      - generic [ref=e17]: v1.0 스타터킷
+      - heading [level=1] [ref=e250]: 빠르게 시작하는 모던 웹 스타터킷
+      - paragraph [ref=e19]: Next.js 16 · Tailwind CSS v4 · shadcn(base-ui) · lucide-react로 구성된, 바로 복붙해 쓸 수 있는 컴포넌트와 레이아웃 모음입니다.
+      - generic [ref=e20]:
+        - button [ref=e251] [cursor=pointer]: 컴포넌트 둘러보기
+        - button [ref=e252] [cursor=pointer]: shadcn 문서
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - heading [level=2] [ref=e253]: 버튼
+          - paragraph [ref=e27]: variant × size 조합과 아이콘 버튼 예시입니다.
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - button [ref=e254]: default
+            - button [ref=e255]: outline
+            - button [ref=e256]: secondary
+            - button [ref=e257]: ghost
+            - button [ref=e258]: destructive
+            - button [ref=e259]: link
+          - generic [ref=e36]:
+            - button [ref=e260]: default
+            - button [ref=e261]: outline
+            - button [ref=e262]: secondary
+            - button [ref=e263]: ghost
+            - button [ref=e264]: destructive
+            - button [ref=e265]: link
+          - generic [ref=e43]:
+            - button [ref=e266]: default
+            - button [ref=e267]: outline
+            - button [ref=e268]: secondary
+            - button [ref=e269]: ghost
+            - button [ref=e270]: destructive
+            - button [ref=e271]: link
+          - generic [ref=e50]:
+            - button [ref=e272]: default
+            - button [ref=e273]: outline
+            - button [ref=e274]: secondary
+            - button [ref=e275]: ghost
+            - button [ref=e276]: destructive
+            - button [ref=e277]: link
+          - generic [ref=e57]:
+            - button [ref=e278]
+            - button [ref=e279]
+            - button [ref=e280]
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - heading [level=2] [ref=e281]: 피드백
+          - paragraph [ref=e64]: Badge, Avatar, Skeleton, Tooltip 컴포넌트 예시입니다.
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]: default
+            - generic [ref=e68]: secondary
+            - generic [ref=e69]: destructive
+            - generic [ref=e70]: outline
+          - generic [ref=e71]:
+            - generic [ref=e74]: 홍
+            - generic [ref=e76]: KM
+          - button [ref=e283]: 마우스를 올려보세요
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - heading [level=2] [ref=e284]: 카드
+          - paragraph [ref=e88]: 가격표/기능 소개 등에 바로 쓸 수 있는 카드 레이아웃입니다.
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - generic [ref=e92]: Starter
+              - generic [ref=e94]: 개인 프로젝트를 위한 기본 플랜
+            - generic [ref=e95]:
+              - paragraph [ref=e96]: 무료
+              - list [ref=e97]:
+                - listitem [ref=e98]: 프로젝트 1개
+                - listitem [ref=e101]: 기본 컴포넌트
+                - listitem [ref=e104]: 커뮤니티 지원
+            - button [ref=e285]: 선택하기
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - generic [ref=e112]: Pro
+                - generic [ref=e113]: 인기
+              - generic [ref=e114]: 빠르게 성장하는 팀을 위한 플랜
+            - generic [ref=e115]:
+              - paragraph [ref=e116]: ₩19,000/월
+              - list [ref=e117]:
+                - listitem [ref=e118]: 프로젝트 무제한
+                - listitem [ref=e121]: 모든 컴포넌트
+                - listitem [ref=e124]: 우선 지원
+            - button [ref=e286]: 선택하기
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - generic [ref=e131]: Enterprise
+              - generic [ref=e133]: 대규모 조직을 위한 맞춤 플랜
+            - generic [ref=e134]:
+              - paragraph [ref=e135]: 문의
+              - list [ref=e136]:
+                - listitem [ref=e137]: 전담 매니저
+                - listitem [ref=e140]: SLA 보장
+                - listitem [ref=e143]: 온프레미스 지원
+            - button [ref=e287]: 선택하기
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - heading [level=2] [ref=e288]: 탭
+          - paragraph [ref=e151]: 개요/사용법/코드 형태의 콘텐츠 전환 예시입니다.
+        - generic [ref=e152]:
+          - tablist [ref=e153]:
+            - tab [ref=e289]: 개요
+            - tab [selected] [ref=e290]: 사용법
+            - tab [ref=e291]: 코드
+          - tabpanel [ref=e292]:
+            - generic [ref=e240]:
+              - text: 필요한 shadcn 컴포넌트는
+              - code [ref=e241]: npx shadcn add <name>
+              - text: 명령으로 추가할 수 있습니다.
+      - generic [ref=e160]:
+        - generic [ref=e161]:
+          - heading [level=2] [ref=e293]: 오버레이
+          - paragraph [ref=e163]: Dialog, Sheet, DropdownMenu, NavigationMenu 상호작용 예시입니다.
+        - generic [ref=e164]:
+          - button [expanded] [ref=e294]: 다이얼로그 열기
+          - button [ref=e295]: 시트 열기
+          - button [ref=e296]: 사용자 메뉴
+          - navigation [ref=e168]:
+            - list [ref=e169]:
+              - listitem [ref=e170]:
+                - button [ref=e297]: 둘러보기
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - heading [level=2] [ref=e298]: 폼
+          - paragraph [ref=e177]: react-hook-form + zod로 검증하는 문의 폼 예시입니다.
+        - generic [ref=e178]:
+          - generic [ref=e179]:
+            - generic [ref=e180]: 문의하기
+            - generic [ref=e181]: 아래 양식을 작성해주시면 빠르게 답변드리겠습니다.
+          - generic [ref=e183]:
+            - generic [ref=e184]:
+              - group [ref=e185]:
+                - generic [ref=e186]: 이름
+                - textbox [ref=e299]:
+                  - /placeholder: 홍길동
+              - group [ref=e188]:
+                - generic [ref=e189]: 이메일
+                - textbox [ref=e300]:
+                  - /placeholder: you@example.com
+              - group [ref=e191]:
+                - generic [ref=e192]: 문의 유형
+                - combobox [ref=e301]:
+                  - img: ▼
+                - textbox [ref=e194]
+              - group [ref=e195]:
+                - generic [ref=e196]: 메시지
+                - textbox [ref=e302]:
+                  - /placeholder: 문의하실 내용을 입력해주세요.
+              - group [ref=e198]:
+                - checkbox [ref=e303]
+                - checkbox [ref=e200]
+                - generic [ref=e201]: 개인정보 수집 및 이용에 동의합니다.
+            - button [ref=e304]: 문의 보내기
+  - contentinfo [ref=e203]:
+    - generic [ref=e204]:
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - generic [ref=e207]: 제품
+          - link [ref=e305] [cursor=pointer]:
+            - /url: "#buttons"
+            - text: 기능
+          - link [ref=e306] [cursor=pointer]:
+            - /url: "#cards"
+            - text: 컴포넌트
+          - link [ref=e307] [cursor=pointer]:
+            - /url: "#forms"
+            - text: 폼
+        - generic [ref=e211]:
+          - generic [ref=e212]: 리소스
+          - link [ref=e308] [cursor=pointer]:
+            - /url: https://ui.shadcn.com/docs
+            - text: shadcn 문서
+          - link [ref=e309] [cursor=pointer]:
+            - /url: https://nextjs.org/docs
+            - text: Next.js 문서
+        - generic [ref=e215]:
+          - generic [ref=e216]: 회사
+          - link [ref=e310] [cursor=pointer]:
+            - /url: "#"
+            - text: 소개
+          - link [ref=e311] [cursor=pointer]:
+            - /url: "#forms"
+            - text: 문의
+      - separator [ref=e219]
+      - generic [ref=e220]:
+        - paragraph [ref=e221]: © 2026 Starter. All rights reserved.
+        - generic [ref=e222]:
+          - button [ref=e312] [cursor=pointer]
+          - button [ref=e313] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e230] [cursor=pointer]
+  - alert [ref=e237]
+  - generic:
+    - region "Notifications"
+  - dialog [ref=e317]:
+    - generic [ref=e318]:
+      - heading "정말 진행할까요?" [level=2] [ref=e319]
+      - paragraph [ref=e320]: 이 작업은 되돌릴 수 없습니다. 계속 진행하시겠습니까?
+    - generic [ref=e321]:
+      - button "취소" [active] [ref=e322]
+      - button "확인" [ref=e323]
+    - button "Close" [ref=e324]
